@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 public class YearlySal {
 	@Value("#{emp.msalary*12+emp.bamount}")
-	public int yearlysalary;
+	private  int yearlysalary;
 	@Autowired
-	public Employee e;
+	private Employee e;
 }

@@ -10,12 +10,12 @@ import lombok.Data;
 @Component("emp")
 public class Employee {
 	@Value("${emp.val.ename}")
-	public String ename;
+	private String ename;
 	@Value("${emp.val.eid}")
-	public String eid;
+	private String eid;
 	@Value("${emp.val.msalary}")
-	public int msalary;
+	private int msalary;
 	@Value("${emp.val.bamount}")
-	public int bamount;
+	private int bamount;
 	
 }
