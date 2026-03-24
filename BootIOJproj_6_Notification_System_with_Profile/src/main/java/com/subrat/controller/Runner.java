@@ -14,11 +14,9 @@ public class Runner implements CommandLineRunner{
 	@Autowired
 	private Notification n;
 	
-	
-
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("Runner.run()");
+		
 		n.setId(1);
 		n.setMesage("hello");
 		n.setRecipient("hellow Subrat");
