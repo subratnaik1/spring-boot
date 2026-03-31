@@ -19,11 +19,16 @@ public class Runable implements CommandLineRunner {
 
 		while(true) {
 			
-			int choice = Integer.parseInt(IO.readln("enter your choicee"));
 			IO.println("1.Add a new travel booking.");
 			IO.println("2.Retrieve all travel bookings.");
 			IO.println("3.Find a travel booking by ID");
+			IO.println("4.Delete a travel booking by ID");
+			IO.println("5.Check if a travel booking exists.");
+			IO.println("6.Count total travel bookings.");
+			IO.println("7.Delete a specific travel booking.");
+			IO.println("8.Delete all travel bookings.");
 			IO.println("Exit");
+			int choice = Integer.parseInt(IO.readln("enter your choicee"));
 			switch (choice) {
 			case 1 -> {
 				long id = Integer.parseInt(IO.readln("enter id"));
@@ -51,7 +56,27 @@ public class Runable implements CommandLineRunner {
 				IO.println(travelById.orElseThrow());
 				
 			}
-			case 4 -> {
+			case 4->{
+				long id = Integer.parseInt(IO.readln("enter id"));
+				String deleteTravelById = tc.deleteTravelById(id);
+				IO.println(deleteTravelById);
+			}
+			case 5->{
+				long id = Integer.parseInt(IO.readln("enter id"));
+				IO.println(tc.existsById(id));
+			}
+			case 6->{
+				long count = tc.count();
+				IO.println(count);
+			}
+			case 7->{
+				
+			}
+			case 8->{
+				tc.deleteAll();
+				IO.println("deleted all records");
+			}
+			case 9 -> {
 				System.exit(0);
 				IO.println("thank you");
 			}

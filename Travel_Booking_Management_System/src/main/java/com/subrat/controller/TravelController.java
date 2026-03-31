@@ -25,5 +25,17 @@ public class TravelController {
 		return travelService.findTravelById(id);
 		
 	}
+	public String deleteTravelById(Long id) {
+		return travelService.deleteTravelById(id);
+	}
+	public boolean existsById(Long id) {
+		return travelService.existsById(id);
+	}
+	public long count() {
+		return travelService.count();
+	}
+	public String deleteAll() {
+		return travelService.deleteAll();
+	}
 
 }

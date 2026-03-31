@@ -10,4 +10,14 @@ public interface ITravelService {
 	Iterable<Travel> getAllTravels();
 
 	Optional<Travel> findTravelById(Long id);
+
+	String deleteTravelById(Long id);
+
+	boolean existsById(Long id);
+
+	long count();
+
+	String delete(Travel travel);
+
+	String deleteAll();
 }

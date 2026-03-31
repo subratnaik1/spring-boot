@@ -33,8 +33,40 @@ public class TravelService implements ITravelService {
 
 	@Override
 	public Optional<Travel> findTravelById(Long id) {
-		Optional<Travel> byId = travelRepository.findById(id);
-		return Optional.empty();
+
+		return travelRepository.findById(id);
+	}
+
+	@Override
+	public String deleteTravelById(Long id) {
+
+		travelRepository.deleteById(id);
+		return "record deleted";
+	}
+
+	@Override
+	public boolean existsById(Long id) {
+
+		return travelRepository.existsById(id);
+	}
+
+	@Override
+	public long count() {
+
+		return travelRepository.count();
+	}
+
+	@Override
+	public String delete(Travel travel) {
+
+		return null;
+	}
+
+	@Override
+	public String deleteAll() {
+
+		travelRepository.deleteAll();
+		return "all records deleted";
 	}
 
 }
