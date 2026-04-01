@@ -10,6 +10,7 @@ import com.subrat.service.IFoodOrderService;
 
 @Controller
 public class FoodController {
+	
 	@Autowired
 	public IFoodOrderService iFoodOrderService;
 	

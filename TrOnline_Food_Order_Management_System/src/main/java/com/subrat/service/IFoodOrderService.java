@@ -29,5 +29,4 @@ public interface IFoodOrderService {
 	
 	String deleteAll();
 
-
 }
