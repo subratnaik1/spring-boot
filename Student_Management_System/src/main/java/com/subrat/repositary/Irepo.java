@@ -9,24 +9,25 @@ import com.subrat.entity.Student;
 
 public interface Irepo extends JpaRepository<Student, Long>{
 
-	Optional<String> findByCourse(String course);
+	List<Student> findByCourse(String course);
 
-	List<String> findByMarksGreaterThan(Double marks);
+	List<Student> findByMarksGreaterThan(Double marks);
 
-	List<String> findByMarksBetween(Double min, Double max);
+	List<Student> findByMarksBetween(Double min, Double max);
 
-	List<String> findByGrade(String grade);
+	List<Student> findByGrade(String grade);
 
-	Optional<String> findByCity(String city);
+	List<Student> findByCity(String city);
 
-	boolean findByPassedTrue();
+	List<Student> findByPassedTrue();
 
-	Optional<String> findByNameStartingWith(String prefix);
+	List<Student> findByNameStartingWith(String prefix);
 
-	Optional<String> findByCourseAndPassed(String course, Boolean status);
+	List<Student> findByCourseAndPassed(String course, Boolean status);
 
-	List<String> findTop3ByOrderByMarksDesc();
+	List<Student> findTop3ByOrderByMarksDesc();
 
-	List<String> findByCityNotIn(List<String> cities);
+	List<Student> findByCityNotIn(List<String> cities);
 
+	
 }
