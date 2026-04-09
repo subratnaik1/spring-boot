@@ -1,201 +1,102 @@
-0:06:22 Tab5 PageLoad
-0:06:22 Tab5 StartNav67 #typed
-0:06:22 Tab5 FinishNav67
-0:06:22 Tab5 PageLoad
-0:06:23 Tab5 StartNav68 #typed
-0:06:23 Tab5 FinishNav68
-0:06:23 Tab5 PageLoad
-0:06:24 Tab5 StartNav69 #typed
-0:06:24 Tab5 FinishNav69
-0:06:24 Tab5 PageLoad
-0:06:25 Memory Pressure: Moderate
-0:06:26 Tab5 StartNav70 #typed
-0:06:26 Tab5 FinishNav70
-0:06:26 Tab5 PageLoad
-0:06:28 Tab5 StartNav71 #typed
-0:06:28 Tab5 FinishNav71
-0:06:28 Tab5 PageLoad
-0:06:28 Tab5 StartNav72 #typed
-0:06:28 Tab5 FinishNav72
-0:06:28 Tab5 PageLoad
-0:06:33 Tab5 StartNav73 #typed
-0:06:33 Tab5 FinishNav73
-0:06:33 Tab5 PageLoad
-0:06:35 Tab5 StartNav74 #typed
-0:06:35 Tab5 FinishNav74
-0:06:35 Tab5 PageLoad
-0:06:35 Memory Pressure: None
-0:06:42 Tab5 StartNav75 #typed
-0:06:42 Tab5 FinishNav75
-0:06:42 Tab5 PageLoad
-0:06:43 Tab5 StartNav76 #typed
-0:06:43 Tab5 FinishNav76
-0:06:43 Tab5 PageLoad
-0:06:45 Tab5 StartNav77 #typed
-0:06:45 Tab5 FinishNav77
-0:06:45 Tab5 PageLoad
-0:06:49 Tab5 StartNav78 #typed
-0:06:49 Tab5 FinishNav78
-0:06:49 Tab5 PageLoad
-0:06:50 Tab5 StartNav79 #typed
-0:06:50 Tab5 FinishNav79
-0:06:50 Tab5 PageLoad
-0:06:55 Tab5 StartNav80 #typed
-0:06:55 Tab5 FinishNav80
-0:06:55 Tab5 PageLoad
-0:06:57 Tab5 StartNav81 #typed
-0:06:57 Tab5 FinishNav81
-0:06:57 Tab5 PageLoad
-0:06:58 Tab5 StartNav82 #typed
-0:06:58 Tab5 FinishNav82
-0:06:58 Tab5 PageLoad
-0:06:59 Tab5 StartNav83 #typed
-0:07:00 Tab5 FinishNav83
-0:07:00 Tab5 PageLoad
-0:07:11 Tab5 StartNav84 #typed
-0:07:11 Tab5 FinishNav84
-0:07:11 Tab5 PageLoad
-0:07:13 Tab5 StartNav85 #typed
-0:07:13 Tab5 FinishNav85
-0:07:13 Tab5 PageLoad
-0:07:14 Tab5 StartNav86 #typed
-0:07:14 Tab5 FinishNav86
-0:07:14 Tab5 PageLoad
-0:07:14 Tab5 StartNav87 #typed
-0:07:14 Tab5 FinishNav87
-0:07:14 Tab5 PageLoad
-0:07:22 Tab5 StartNav88 #typed
-0:07:22 Tab5 FinishNav88
-0:07:22 Tab5 PageLoad
-0:07:26 Tab5 StartNav89 #typed
-0:07:26 Tab5 FinishNav89
-0:07:26 Tab5 PageLoad
-0:07:32 Tab5 StartNav90 #typed
-0:07:32 Tab5 FinishNav90
-0:07:32 Tab5 PageLoad
-0:07:32 Tab5 StartNav91 #typed
-0:07:32 Tab5 FinishNav91
-0:07:32 Tab5 PageLoad
-0:07:33 Tab5 StartNav92 #typed
-0:07:33 Tab5 FinishNav92
-0:07:33 Tab5 PageLoad
-0:07:34 Tab5 StartNav93 #typed
-0:07:34 Tab5 FinishNav93
-0:07:34 Tab5 PageLoad
-0:07:35 Tab5 StartNav94 #typed
-0:07:35 Tab5 FinishNav94
-0:07:35 Tab5 PageLoad
-0:07:37 Tab5 StartNav95 #typed
-0:07:37 Tab5 FinishNav95
-0:07:37 Tab5 PageLoad
-0:07:39 Tab5 StartNav96 #typed
-0:07:39 Tab5 FinishNav96
-0:07:39 Tab5 PageLoad
-0:07:40 Tab5 StartNav97 #typed
-0:07:40 Tab5 FinishNav97
-0:07:40 Tab5 PageLoad
-0:07:40 Tab5 StartNav98 #typed
-0:07:40 Tab5 FinishNav98
-0:07:40 Tab5 PageLoad
-0:07:41 Tab5 StartNav99 #typed
-0:07:41 Tab5 FinishNav99
-0:07:41 Tab5 PageLoad
-0:07:48 Tab5 StartNav100 #typed
-0:07:48 Tab5 FinishNav100
-0:07:48 Tab5 PageLoad
-0:07:48 Tab5 StartNav101 #typed
-0:07:48 Tab5 FinishNav101
-0:07:48 Tab5 PageLoad
-0:07:55 Tab5 StartNav102 #typed
-0:07:55 Tab5 FinishNav102
-0:07:55 Tab5 PageLoad
-0:07:56 Microsoft.NewBrowser_Popup
-0:07:56 Microsoft.BrowserList.AddBrowser
-0:07:56 Browser6 Insert active Tab6 at 0
-0:07:56 Tab6 StartNav103 #auto_toplevel
-0:07:56 Tab5 StartNav104 #typed
-0:07:56 Tab6 StartNav105 #typed
-0:07:56 Tab5 FinishNav104
-0:07:56 Tab5 PageLoad
-0:07:56 Tab5 StartNav106 #typed
-0:07:56 Tab6 StartNav107 #typed
-0:07:56 Tab5 FinishNav106
-0:07:56 Tab5 PageLoad
-0:07:56 Tab6 FinishNav103
-0:07:56 Tab6 PageLoad
-0:07:57 Tab6 FinishNav105
-0:07:57 Tab6 PageLoad
-0:07:57 Tab6 FinishNav107
-0:07:57 Tab6 PageLoad
-0:07:57 Tab5 StartNav108 #typed
-0:07:57 Tab5 FinishNav108
-0:07:57 Tab5 PageLoad
-0:07:57 Tab5 StartNav109 #typed
-0:07:57 Tab5 FinishNav109
-0:07:57 Tab5 PageLoad
-0:07:58 Tab5 StartNav110 #typed
-0:07:58 Tab5 FinishNav110
-0:07:58 Tab5 PageLoad
-0:07:58 Tab5 StartNav111 #typed
-0:07:58 Tab5 FinishNav111
-0:07:58 Tab5 PageLoad
-0:08:00 Tab5 StartNav112 #typed
-0:08:00 Tab5 FinishNav112
-0:08:00 Tab5 PageLoad
-0:08:01 Tab5 StartNav113 #typed
-0:08:01 Tab5 FinishNav113
-0:08:01 Tab5 PageLoad
-0:08:03 Tab5 StartNav114 #typed
-0:08:03 Tab5 FinishNav114
-0:08:03 Tab5 PageLoad
-0:08:04 Tab5 StartNav115 #typed
-0:08:04 Tab5 FinishNav115
-0:08:04 Tab5 PageLoad
-0:08:05 Tab5 StartNav116 #typed
-0:08:05 Tab5 FinishNav116
-0:08:05 Tab5 PageLoad
-0:08:07 Tab5 StartNav117 #typed
-0:08:07 Tab5 FinishNav117
-0:08:07 Tab5 PageLoad
-0:08:07 Tab5 StartNav118 #typed
-0:08:07 Tab5 FinishNav118
-0:08:07 Tab5 PageLoad
-0:08:09 Tab5 StartNav119 #typed
-0:08:09 Tab5 FinishNav119
-0:08:09 Tab5 PageLoad
-0:08:23 Tab5 StartNav120 #typed
-0:08:23 Tab5 FinishNav120
-0:08:23 Tab5 PageLoad
-0:10:04 Tab5 StartNav121 #typed
-0:10:04 Tab5 FinishNav121
-0:10:04 Tab5 PageLoad
-0:10:07 Tab5 StartNav122 #typed
-0:10:07 Tab5 FinishNav122
-0:10:07 Tab5 PageLoad
-0:10:07 Tab5 StartNav123 #typed
-0:10:07 Tab5 FinishNav123
-0:10:07 Tab5 PageLoad
-0:13:43 Memory Pressure: Moderate
-0:13:53 Memory Pressure: Moderate
-0:14:03 Memory Pressure: Moderate
-0:14:13 Memory Pressure: Moderate
-0:14:23 Memory Pressure: Moderate
-0:14:33 Memory Pressure: Moderate
-0:14:43 Memory Pressure: Moderate
-0:14:48 Memory Pressure: None
-0:14:53 Memory Pressure: Moderate
-0:15:03 Memory Pressure: Moderate
-0:15:13 Memory Pressure: Moderate
-0:15:23 Memory Pressure: Moderate
-0:15:33 Memory Pressure: Moderate
-0:15:43 Memory Pressure: Moderate
-0:15:53 Memory Pressure: Moderate
-0:16:03 Memory Pressure: Moderate
-0:16:13 Memory Pressure: Moderate
-0:16:23 Memory Pressure: None
-0:18:21 Memory Pressure: Moderate
-0:18:31 Memory Pressure: None
-0:19:38 Tab5 StartNav124 #typed
-0:19:38 Tab5 FinishNav124
-0:19:38 Tab5 PageLoad
-0:25:43 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+0:00:04 Tab1 FinishNav7
+0:00:04 Tab1 PageLoad
+0:00:06 Tab1 StartNav8 #typed
+0:00:06 Tab1 FinishNav8
+0:00:06 Tab1 PageLoad
+0:00:16 Tab1 StartNav9 #typed
+0:00:16 Tab1 FinishNav9
+0:00:16 Tab1 PageLoad
+0:00:18 Tab1 StartNav10 #typed
+0:00:18 Tab1 FinishNav10
+0:00:18 Tab1 PageLoad
+0:00:21 Tab1 StartNav11 #typed
+0:00:21 Tab1 FinishNav11
+0:00:21 Tab1 PageLoad
+0:00:27 Tab1 StartNav12 #typed
+0:00:27 Tab1 FinishNav12
+0:00:27 Tab1 PageLoad
+0:00:28 Tab1 StartNav13 #typed
+0:00:28 Tab1 FinishNav13
+0:00:28 Tab1 PageLoad
+0:00:30 Tab1 StartNav14 #typed
+0:00:30 Tab1 FinishNav14
+0:00:30 Tab1 PageLoad
+0:00:32 Tab1 StartNav15 #typed
+0:00:32 Tab1 FinishNav15
+0:00:32 Tab1 PageLoad
+0:00:33 Tab1 StartNav16 #typed
+0:00:33 Tab1 FinishNav16
+0:00:33 Tab1 PageLoad
+0:00:37 Tab1 StartNav17 #typed
+0:00:37 Tab1 FinishNav17
+0:00:37 Tab1 PageLoad
+0:00:39 Tab1 StartNav18 #typed
+0:00:39 Tab1 FinishNav18
+0:00:39 Tab1 PageLoad
+0:00:41 Tab1 StartNav19 #typed
+0:00:41 Tab1 FinishNav19
+0:00:41 Tab1 PageLoad
+0:00:43 Tab1 StartNav20 #typed
+0:00:43 Tab1 FinishNav20
+0:00:43 Tab1 PageLoad
+0:00:44 Tab1 StartNav21 #typed
+0:00:44 Tab1 FinishNav21
+0:00:44 Tab1 PageLoad
+0:00:46 Tab1 StartNav22 #typed
+0:00:46 Tab1 FinishNav22
+0:00:46 Tab1 PageLoad
+0:00:51 Tab1 StartNav23 #typed
+0:00:51 Tab1 FinishNav23
+0:00:51 Tab1 PageLoad
+0:00:53 Tab1 StartNav24 #typed
+0:00:53 Tab1 FinishNav24
+0:00:53 Tab1 PageLoad
+0:00:54 Tab1 StartNav25 #typed
+0:00:54 Tab1 FinishNav25
+0:00:54 Tab1 PageLoad
+0:00:58 Tab1 StartNav26 #typed
+0:00:58 Tab1 FinishNav26
+0:00:58 Tab1 PageLoad
+0:01:00 Memory Pressure: Moderate
+0:01:01 Tab1 StartNav27 #typed
+0:01:01 Tab1 FinishNav27
+0:01:01 Tab1 PageLoad
+0:01:01 Tab1 StartNav28 #typed
+0:01:01 Tab1 FinishNav28
+0:01:01 Tab1 PageLoad
+0:01:03 Tab1 StartNav29 #typed
+0:01:03 Tab1 FinishNav29
+0:01:03 Tab1 PageLoad
+0:01:04 Tab1 StartNav30 #typed
+0:01:04 Tab1 FinishNav30
+0:01:04 Tab1 PageLoad
+0:01:05 Memory Pressure: None
+0:01:13 Tab1 StartNav31 #typed
+0:01:13 Tab1 FinishNav31
+0:01:13 Tab1 PageLoad
+0:01:14 Tab1 StartNav32 #typed
+0:01:14 Tab1 FinishNav32
+0:01:14 Tab1 PageLoad
+0:01:18 Tab1 StartNav33 #typed
+0:01:18 Tab1 FinishNav33
+0:01:18 Tab1 PageLoad
+0:01:19 Tab1 StartNav34 #typed
+0:01:19 Tab1 FinishNav34
+0:01:19 Tab1 PageLoad
+0:01:21 Tab1 StartNav35 #typed
+0:01:21 Tab1 FinishNav35
+0:01:21 Tab1 PageLoad
+0:01:24 Tab1 StartNav36 #typed
+0:01:24 Tab1 FinishNav36
+0:01:24 Tab1 PageLoad
+0:01:25 Tab1 StartNav37 #typed
+0:01:25 Tab1 FinishNav37
+0:01:25 Tab1 PageLoad
+0:01:30 Memory Pressure: Moderate
+0:01:35 Memory Pressure: None
+0:01:40 Memory Pressure: Moderate
+0:01:50 Memory Pressure: Moderate
+0:02:00 Memory Pressure: Moderate
+0:02:05 Memory Pressure: None
+0:54:59 Memory Pressure: Moderate
+0:55:00 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
