@@ -21,7 +21,7 @@ public class serv implements Iservice {
 	public List<Employee> saveEmployees(List<Employee> e) {
 		
 		 Iterable<Employee> saveAll = irepo.saveAll(e);
-		 List<Employee> list = StreamSupport.stream(saveAll.spliterator(), false).toList();
+		 List<Employee> list = (List<Employee>) saveAll;
 		 return list;
 	}
 
@@ -33,6 +33,5 @@ public class serv implements Iservice {
 		Page<Employee> all = irepo.findAll(pageable);
 		return all;
 		
-	}
-	
+	}	
 }
