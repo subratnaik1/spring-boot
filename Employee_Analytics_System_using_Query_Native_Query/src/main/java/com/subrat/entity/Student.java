@@ -11,12 +11,11 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name="Employee")
-public class Employee {
+@Table(name="St")
+public class Student {
 	@Id
 	private Long id;
 	private String name;
-	private String department;
-	private Double salary;
-	private String designation;
+	private String course;
+	private Double marks;
 }
