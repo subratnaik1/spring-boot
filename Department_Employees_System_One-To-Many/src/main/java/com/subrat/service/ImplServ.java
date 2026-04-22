@@ -18,34 +18,34 @@ public class ImplServ implements Iservice{
 	@Autowired
 	private IDeptRepo Drepo;
 	
-	String saveDept(Department d) {
+	public String saveDept(Department d) {
 		
 		Drepo.save(d);
 		return"department saved";
 	}
 
-	Optional<Department> findDeptById(Long id){
+	public Optional<Department> findDeptById(Long id){
 		Optional<Department> byId = Drepo.findById(id);
 		return byId;
 	}
 
-	List<Department> findAllDept(){
+	public List<Department> findAllDept(){
 		List<Department> all = Drepo.findAll();
 		return all;
 	}
 
-	String saveEmp(Employee e) {
+	public String saveEmp(Employee e) {
 		Erepo.save(e);
 		return "Employee saved";
 	}
 
-	Optional<Employee> findByDept(String dept){
+	public Optional<Employee> findByDept(String dept){
 		Optional<Employee> byDept = Erepo.findByDept(dept);
 		return byDept;
 	}
 
-	List<Employee> FindEmpSalGreaterThen5000(){
-		List<Employee> findEmpSalGreaterThen5000 = Erepo.FindEmpSalGreaterThen5000();
+	public List<Employee> FindEmpSalGreaterThen5000(){
+		List<Employee> findEmpSalGreaterThen5000 = Erepo.findByEmpsalaryGreaterThan();
 		return findEmpSalGreaterThen5000;
 	}
 

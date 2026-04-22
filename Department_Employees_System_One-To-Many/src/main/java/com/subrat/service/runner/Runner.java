@@ -1,10 +1,14 @@
 package com.subrat.service.runner;
 
+import java.util.List;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import com.subrat.entity.Department;
+import com.subrat.entity.Employee;
 import com.subrat.service.Iservice;
 
 @Component
@@ -25,9 +29,55 @@ public class Runner implements CommandLineRunner {
 		
 		switch(choice) {
 		case 1->{
-			Department d=new Department(1l,"subrat","odisha");
+			Employee e=new Employee();
+			e.setId(2l);
+			e.setName("raj");
+			e.setSalary(2000.0);
 			
+			Employee f=new Employee();
+			f.setId(3l);
+			f.setName("raju");
+			f.setSalary(80000.0);
 			
+			Department d=new Department();
+			d.setId(1l);
+			d.setName("Subrat");
+			d.setLocation("Odisha");
+			d.setEmployee(List.of(e,f));
+			e.setDept(d);
+			
+			IO.println(serv.saveDept(d));
+		}
+		case 2->{
+			Long id=Long.parseLong(IO.readln("enter id"));
+			serv.findDeptById(id).ifPresent(IO::println);
+		}
+		case 3->{
+			serv.findAllDept().forEach(IO::println);
+		}
+		case 4->{
+			Employee g=new Employee();
+			g.setId(4l);
+			g.setName("sumit");
+			g.setSalary(90000.0);
+			
+			Department d=new Department();
+			d.setId(1l);
+			d.setName("Subrat");
+			d.setLocation("Odisha");
+			d.setEmployee(List.of(g));
+			g.setDept(d);
+			
+			IO.println(serv.saveDept(d));
+			
+		}
+		case 5->{
+			String dept=IO.readln("enter department");
+			Optional<Employee> byDept = serv.findByDept(dept);
+			byDept.ifPresent(IO::println);
+		}
+		case 6->{
+			serv.FindEmpSalGreaterThen5000().forEach(IO::println);
 		}
 		}
 		
