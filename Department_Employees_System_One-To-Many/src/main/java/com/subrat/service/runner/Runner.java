@@ -19,13 +19,13 @@ public class Runner implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		int choice = Integer.parseInt(IO.readln("enter your choice"));
 		IO.println("1-Save Department");
 		IO.println("2-Find Department by id");
 		IO.println("3-Fetch all Departments");
 		IO.println("4-Save Employee");
 		IO.println("5-Find Employees by Department");
 		IO.println("6-Find Employees with salary > 50,000");
+		int choice = Integer.parseInt(IO.readln("enter your choice"));
 		
 		switch(choice) {
 		case 1->{

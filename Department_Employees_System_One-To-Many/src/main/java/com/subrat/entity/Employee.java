@@ -33,4 +33,10 @@ public class Employee {
 	@ManyToOne(targetEntity = Department.class,fetch = FetchType.EAGER)
 	@JoinColumn(name=" deptid",referencedColumnName = "id")
 	private Department dept;
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", designation=" + designation + "]";
+	}
+	
+	
 }
