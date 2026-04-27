@@ -1,6 +1,7 @@
 package com.subrat.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,8 +31,17 @@ public class ImplServ implements CustomerService {
 
 	@Override
 	public String updatePassport(Long id, Long passNum, String country) {
-
-		return null;
+		Optional<Customer> byId = cRepo.findById(id);
+		
+		if(byId.isPresent()) {
+			Customer cust = byId.get();
+			Passport passport = cust.getPassport();
+			passport.setPassportNumber(passNum);
+			passport.setIssueCountry(country);
+			cRepo.save(cust);
+		}
+		
+		return "passport updated";
 	}
 
 	@Override

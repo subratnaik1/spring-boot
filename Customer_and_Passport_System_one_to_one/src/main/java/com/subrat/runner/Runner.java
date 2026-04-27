@@ -14,23 +14,33 @@ public class Runner implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		
-		int choice =Integer.parseInt(IO.readln("enter your choice"));
-		switch(choice) {
-		case 1->{
-			Long passportNumber=Long.parseLong(IO.readln("enter passport number"));
-			String issueCountry=IO.readln("enter which country to issue");
-			
-			Passport p=new Passport(passportNumber,issueCountry);
-			String customerName=IO.readln("enter customer name");
-			String nationality=IO.readln("enter customer nationality");
-			Customer c=new Customer(customerName,nationality);
-			c.setPassport(p);
-			IO.println(serv.addCustomerWithPassport(c));
-		}
-		case 2->{
-			serv.getCustomerDetails().forEach(IO::println);
-		}
+		while(true) {		
+			IO.println("1-add customer");
+			IO.println("2-view customer");
+			IO.println("1-update passport");
+			int choice = Integer.parseInt(IO.readln("enter your choice"));
+			switch (choice) {
+			case 1 -> {
+				Long passportNumber = Long.parseLong(IO.readln("enter passport number"));
+				String issueCountry = IO.readln("enter which country to issue");
+				
+				Passport p = new Passport(passportNumber, issueCountry);
+				String customerName = IO.readln("enter customer name");
+				String nationality = IO.readln("enter customer nationality");
+				Customer c = new Customer(customerName, nationality);
+				c.setPassport(p);
+				IO.println(serv.addCustomerWithPassport(c));
+			}
+			case 2 -> {
+				serv.getCustomerDetails().forEach(IO::println);
+			}
+			case 3 -> {
+				Long id = Long.parseLong(IO.readln("enter passport id"));
+				Long passNum = Long.parseLong(IO.readln("enter passport number"));
+				String country = IO.readln("enter which country to issue");
+				IO.println(serv.updatePassport(id, passNum, country));
+			}
+			}
 		}
 	}
 
