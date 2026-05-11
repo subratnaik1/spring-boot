@@ -28,57 +28,54 @@ public class Runner implements CommandLineRunner {
 			int choice = Integer.parseInt(IO.readln("enter your choice"));
 			switch (choice) {
 			case 1 -> {
-
-				Employee a = new Employee("subrat", "cse");
-				Employee b = new Employee("raj", "machenical");
-				Employee c = new Employee("sritam", "cse");
-				Employee d = new Employee("rahul", "elect");
-				List<Employee> eList = List.of(a, b, c, d);
-				
-				Project e = new Project("proj1", "rrrr");
-				Project f = new Project("proj2", "jhv");
-				Project g = new Project("proj3", "jhb");
-				Project h = new Project("proj4", "kjb");
-				List<Project> pList = List.of(e, f, g, h);
-				
-				a.setProjects(pList);
-				b.setProjects(pList);
-				c.setProjects(pList);
-				d.setProjects(pList);
-
-				e.setEmployees(eList);
-				f.setEmployees(eList);
-				g.setEmployees(eList);
-				h.setEmployees(eList);
-				
-				serv.addEmployees(eList);
-				IO.println("employees added");
+                List<Employee>empList=new ArrayList<>();
+                int emp=Integer.parseInt(IO.readln("enter how many employees u want to add"));
+                int pro=Integer.parseInt(IO.readln("enter how many projects u want to add"));
+                
+				for(int i=0;i<=emp;i++) {
+					String empName=IO.readln("enter name");
+					String department=IO.readln("enter department");
+					Employee e=new Employee(empName,department);
+					
+					List<Project>projList=new ArrayList<>();
+					for(int j=0;j<=pro;j++) {
+						String projectName=IO.readln("enter project name");
+						String clientName=IO.readln("enter client name");
+						Project p=new Project(projectName,clientName);
+						p.setEmployees(List.of(e));
+						projList.add(p);						
+					}
+					e.setProjects(projList);
+					empList.add(e);
+					serv.addEmployees(empList);
+				}
+				IO.println("employee added ");
 			}
 			case 2->{
-				Employee a = new Employee("subrat", "cse");
-				Employee b = new Employee("raj", "machenical");
-				Employee c = new Employee("sritam", "cse");
-				Employee d = new Employee("rahul", "elect");
-				List<Employee> eList = List.of(a, b, c, d);
+				int pro=Integer.parseInt(IO.readln("enter how many projects u want to add"));
+				 int emp=Integer.parseInt(IO.readln("enter how many employees u want to add"));
+				List<Project> projectList=new ArrayList<>();
+				for(int i=0;i<pro;i++) {
+					String projectName=IO.readln("enter project name");
+					String clientName=IO.readln("enter client name");
+					Project p=new Project(projectName,clientName);
+					
+					List<Employee>eList=new ArrayList<>();
+					for(int j=0;j<emp;j++) {
+						String empName=IO.readln("enter name");
+						String department=IO.readln("enter department");
+						Employee em=new Employee(empName,department);
+						em.setProjects(List.of(p));
+						eList.add(em);
+					}
+					p.setEmployees(eList);
+					projectList.add(p);
+					serv.addProjects(projectList);
+					IO.println("project added");
+				}
 				
-				Project e = new Project("proj1", "rrrr");
-				Project f = new Project("proj2", "jhv");
-				Project g = new Project("proj3", "jhb");
-				Project h = new Project("proj4", "kjb");
-				List<Project> pList = List.of(e, f, g, h);
 				
-				a.setProjects(pList);
-				b.setProjects(pList);
-				c.setProjects(pList);
-				d.setProjects(pList);
-
-				e.setEmployees(eList);
-				f.setEmployees(eList);
-				g.setEmployees(eList);
-				h.setEmployees(eList);
 				
-				serv.addProjects(pList);
-				IO.println("projects added");
 			}
 			case 3->{
 			long id = Long.parseLong(IO.readln("enter Employee id"));
@@ -100,11 +97,15 @@ public class Runner implements CommandLineRunner {
 			}
 			case 4->{
 				List<Employee> showAllEmployeeWithProjects = serv.showAllEmployeeWithProjects();
-				showAllEmployeeWithProjects.forEach(IO::println);
+				showAllEmployeeWithProjects.forEach(e->{
+					List<Project> list = e.getProjects();
+					IO.println(e.getEmpId()+" "+e.getEmpName()+" "+e.getDepartment()+" "+list);
+				});
 			}
 			case 5->{
 				long id = Long.parseLong(IO.readln("enter Project id"));
-				serv.ShowAllEmpUnderProject(id).forEach(IO::println);
+				List<Employee> showAllEmpUnderProject = serv.ShowAllEmpUnderProject(id);
+				showAllEmpUnderProject.forEach(IO::println);
 			}
 			}
 		}
